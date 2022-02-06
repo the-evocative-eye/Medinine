@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image:url("./images/login.jpg");
+            margin: 10px;
+            font-family: 'Rubik', sans-serif;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"],textarea{
+            width: 100%;
+            display: block;
+            padding: 5px;
+            border-radius: 4px;
+            border:2px solid blue;
+        }
+        .login{
+            background-color: black;
+            border: 3px solid blue;
+            border-radius: 8px;
+            width: 50%;
+            color: white;
+            padding: 10px 10px;
+            margin:60px 400px;
+        }
+        p{
+            margin: 10px;
+        }
+        .text{
+            margin: 20px;
+            
+        }
+        input[type="button"]{
+            margin: 20px 350px;
+            padding: 15px;
+            background-color: blue;
+            color: white;
+            border-radius: 7px;
+            cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 255, 0.61);
+}
+       
+    </style>
+</head>
+<body>
+
+    <div class="container-fluid login">
+                <div class="text">
+      <p>Name: <input type="text" name="text" placeholder="Taniya Agarwal"></p>
+      <p>Number: <input type="number" name="number" placeholder="9374283996"></p>
+      <p>Address: <input type="text" name="address" placeholder="A-7/3 Kamla Nagar,Agra"></p>
+      <p>Email: <input type="email" name="email" placeholder="agarwaltaniya49@gmail.com"></p>
+      <p>Doctor:  <input type="radio" name="doctor" id="#">  Patient:  <input type="radio" name="doctor" id="#"></p>
+      <p>Description of Illness <textarea name="text" id="#" cols="20" rows="8" placeholder="I am suffering from skin eczema."></textarea></p>
+      <p>Duration of Illness: <input type="number" name="number" placeholder="5 months"></p>
+      <input type="button" class="btn" value="Login">
+    </div>
+</div>
+</body>
+</html>
