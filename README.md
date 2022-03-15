@@ -1,2 +1,2 @@
 # Medinine
-This is frontend of a medical website.
+Frontend of a medical website.
